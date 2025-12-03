@@ -2,13 +2,6 @@
 {
     "name": "Python 3.11 Mob/Pair Programming",
     "image": "mcr.microsoft.com/devcontainers/universal:latest",
-    // Włączamy Python 3.11 jako "Feature"
-    "features": {
-        "ghcr.io/devcontainers/features/python:1": {
-            "version": "3.11",
-            "installTools": true
-        }
-    },
     // Automatyczna instalacja rozszerzeń
     "customizations": {
         "vscode": {
