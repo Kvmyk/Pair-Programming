@@ -1,18 +1,14 @@
-// .devcontainer/devcontainer.json
 {
     "name": "Python 3.11 Mob/Pair Programming",
     "image": "mcr.microsoft.com/devcontainers/universal:latest",
-    // Automatyczna instalacja rozszerzeń
     "customizations": {
         "vscode": {
             "extensions": [
-                "ms-python.python", // Podstawowe rozszerzenie dla Pythona
-                "ms-vsliveshare.vsliveshare", // KLUCZOWE: Automatyczna instalacja Live Share
-                "EditorConfig.EditorConfig" // Utrzymanie spójnego stylu
+                "ms-python.python",
+                "ms-vsliveshare.vsliveshare",
+                "EditorConfig.EditorConfig",
+                "tomoki1207.pdf"
             ]
         }
-    },
-    // Komenda startowa widoczna w terminalu
-    "postCreateCommand": "echo 'Witaj w środowisku Python 3.11! Użyj Live Share (ikona ludzików) do rozpoczęcia sesji. Powodzenia przy zadaniach: Symulacja Kolejek  i Minimalna Liczba Przedziałów!'",
-    "remoteUser": "vscode"
+    }
 }
