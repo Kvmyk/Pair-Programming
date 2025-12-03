@@ -1,5 +1,5 @@
 {
-    "name": "Python 3.11 Mob/Pair Programming",
+    "name": "Mob/Pair Programming",
     "image": "mcr.microsoft.com/devcontainers/universal:latest",
     "customizations": {
         "vscode": {
@@ -7,7 +7,7 @@
                 "ms-python.python",
                 "ms-vsliveshare.vsliveshare",
                 "EditorConfig.EditorConfig",
-                "tomoki1207.pdf"
+                "analytic-signal.preview-pdf"
             ]
         }
     }
